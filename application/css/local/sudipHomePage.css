@@ -1,13 +1,24 @@
-#Sudip_home_page_segment {
+#sudip_home_page_segment {
 	width: 100%;
 	height: 100%;
 }
-#Sudip_home_page_title {
+#sudip_home_page_sidebar {
+	display: none;
+}
+#sudip_home_page_title {
 	margin-top: 15%;
 }
-#Sudip_home_page_title_header {
+#sudip_home_page_title_header {
 	font-size:6em;
 }
-#Sudip_home_page_title_description {
+#sudip_home_page_title_description {
 	font-size:2em;
+}
+@media only screen and (max-width: 700px) {
+    #sudip_home_page_menubar {
+        display: none !important;
+    }
+    #sudip_home_page_sidebar {
+        display: block !important;
+    }
 }
