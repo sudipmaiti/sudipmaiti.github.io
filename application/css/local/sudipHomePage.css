@@ -1,6 +1,8 @@
 #sudip_home_page_segment {
 	position: absolute;
-	background-color:blue !important;
+	background-color:transparent;
+	top:2%;
+	left:8%;
 }
 #sudip_home_page_sidebar {
 	display: none;
