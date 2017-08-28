@@ -90,5 +90,10 @@ function draw() {
 
 // Start
 loop();
+  
+$('.ui.basic.modal.contact')
+  .modal('show')
+;
+  
 }); // on ready function
 
