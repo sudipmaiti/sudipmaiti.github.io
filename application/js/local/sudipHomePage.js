@@ -1,4 +1,15 @@
 $(document).ready(function() {
+
+
+$('#new_sidebar')
+  .modal('setting', { detachable:false }).modal('attach events', '#new_sidebar_menu', 'show')
+;
+//$('#new_sidebar').modal({observeChanges: true});
+//$('.modal').modal('setting', { detachable:false }).modal('show');
+//$("#new_sidebar_menu").click(function(){
+//    document.getElementById("main_container").style.display = "none";
+//});
+
 var canvas = document.querySelector("canvas");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -90,10 +101,6 @@ function draw() {
 
 // Start
 loop();
-  
-$('.ui.basic.modal.contact')
-  .modal('show')
-;
   
 }); // on ready function
 
